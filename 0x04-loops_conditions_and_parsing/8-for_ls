@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# cuts and echoes parts of a file name
+
+file=$(ls)
+for i in $file
+do
+	echo $i | cut -d '-' -f 2
+done

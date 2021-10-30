@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#loops and executes an if else statment
+
+i=1
+while [ $i -le 10 ]
+do
+	if [ $i -eq 9 ]
+	then
+		echo "Best School"
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	let i=i+1
+done

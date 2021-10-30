@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Runs a loop using until
+
+i=1
+until [ $i -gt 10 ]
+do
+	echo "Best School"
+	let i=i+1
+done

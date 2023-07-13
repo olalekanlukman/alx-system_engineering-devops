@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -pmav 
+printf "%s,\n" $(ls -pav --sort=version)
+

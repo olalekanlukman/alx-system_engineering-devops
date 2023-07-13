@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1pABv LC_ALL=C
+LC_ALL=C ls -1pABv
